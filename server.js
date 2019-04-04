@@ -7,7 +7,7 @@ const app = express();
 
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost:27017/auth')
+mongoose.connect('mongodb://vsrnitp:Hello12345@ds257551.mlab.com:57551/react')
 
 const {User} = require('./models/user');
 const {auth} = require('./middleware/auth');
